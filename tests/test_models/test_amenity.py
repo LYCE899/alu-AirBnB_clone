@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import unittest
-from mdels.amenity import Amenity
+from models.amenity import Amenity
 
 
 class TestBase(unittest.TestCase):
