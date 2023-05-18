@@ -16,7 +16,7 @@ class BaseModel:
     """modify the updated_at attribute"""
 
     def save(self):
-        self.updated_at = datetime.now)
+        self.updated_at = datetime.now()
 
     """return string representation"""
 
