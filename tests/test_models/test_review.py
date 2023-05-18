@@ -4,7 +4,7 @@ from models.review import Review
 
 
 class TestBase(unittest.TestCase):
-    def test_initialization(delf):
+    def test_initialization(self):
         review = Review()
         self.assertEqual(
             str(type(review)), "<class 'models.review.Review'>")
