@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import unittest
-import models.review import Review
+from models.review import Review
 
 
 class TestBase(unittest.TestCase):
