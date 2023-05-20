@@ -3,6 +3,9 @@ import unittest
 from models.base_model import BaseModel
 from models.engine.file_storage import FileStorage
 
+# Instantiate the storage object
+storage = FileStorage()
+
 class TestBase(unittest.TestCase):
     def test_class_properties(self):
         self.assertIsInstance(storage, FileStorage)
