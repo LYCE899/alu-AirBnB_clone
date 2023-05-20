@@ -17,18 +17,8 @@ To launch the interpreter, execute the following command:
 
 $ ./console.py
 
-# Using the Interpreter 🔁
-Command    Action    Output
-help       Displays documented commands    (hbnb) help
-help create (any command)    Creates an object of a given class    (hbnb) help create
-quit       Ends the command interpreter    (hbnb) quit
-EOF        Exits the program    (hbnb) EOF
-all        Shows all objects of a given class    (hbnb) all <class>
-show       Displays an object of a given class    (hbnb) show <class> <id>
-update     Modifies an object of a given class    (hbnb) update <class> <id> <attribute name> <"attribute value">
-destroy    Deletes an object of a given class    (hbnb) destroy <class> <id>
 
-Tests 🛰️
+# Tests 🛰️
 To run unit tests on the codebases, execute the following command:
 
 $ python3 unittest -m discover tests
