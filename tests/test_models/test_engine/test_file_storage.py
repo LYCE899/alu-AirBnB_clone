@@ -2,6 +2,10 @@
 import unittest
 from models.base_model import BaseModel
 from models.engine.file_storage import FileStorage
+
+storage = FileStorage()
+storage.reload()
+
 class TestBase(unittest.TestCase):
     def test_class_properties(self):
         self.assertIsInstance(storage, FileStorage)
