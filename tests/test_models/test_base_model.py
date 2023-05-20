@@ -4,7 +4,7 @@ from models.base_model import BaseModel
 
 
 class TestBase(unittest.TestCase):
-     def test_initialization(self):
+    def test_initialization(self):
         model = BaseModel()
         self.assertEqual(
             str(type(model)), "<class 'models.base_model.BaseModel'>")
@@ -26,7 +26,7 @@ class TestBase(unittest.TestCase):
         model.save()
         self.assertGreater(model.updated_at, time)
 
-     def test_dict(self):
+    def test_dict(self):
         model = BaseModel()
         obj = model.to_dict()
         self.assertEqual(obj["id"], model.id)
